@@ -25,6 +25,8 @@ private static WebDriver driver;
 public static void main(String[] args) throws FindFailed, InterruptedException, IOException {
 
  // Setting the path for Chrome.
+	
+	//Updated in eclipse
 	System.setProperty("webdriver.chrome.driver", "C://Users//ujjawalverma//Desktop//NagarroFramework//Tests//bin//Debug//chromedriver.exe");
 	 driver= new ChromeDriver();
 	 driver.get("http://dev.lutron.com/_login/default.aspx?ReturnUrl=%2fen-us%2f_layouts%2fAuthenticate.aspx%3fSource%3d%252Fen%252Dus%252F%255Flayouts%252Fviewlsts%252Easpx&Source=%2Fen-us%2F_layouts%2Fviewlsts%2Easpx");
